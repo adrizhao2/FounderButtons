@@ -37,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Who founded Google?"/>
                                 <connections>
-                                    <action selector="showMessagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLb-3q-nEY"/>
+                                    <action selector="googleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEs-7a-gjW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87A-zK-YKL">
@@ -45,7 +45,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Who founded Rent the Runway?"/>
                                 <connections>
-                                    <action selector="showMessagePressed2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ppn-8e-Lrp"/>
+                                    <action selector="runwayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Sk-bL-eK7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ds-rb-qFI">
@@ -53,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
-                                    <action selector="clearMessages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cYi-eX-VYA"/>
+                                    <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwn-QF-etG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -61,8 +61,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="messageLabel" destination="lJA-jU-5kY" id="7hi-B1-azL"/>
-                        <outlet property="messageLabel2" destination="o0O-oW-Kl8" id="cV6-UJ-twN"/>
+                        <outlet property="bottomLabel" destination="o0O-oW-Kl8" id="EFd-Y2-2bA"/>
+                        <outlet property="topLabel" destination="lJA-jU-5kY" id="gJy-oE-sDf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

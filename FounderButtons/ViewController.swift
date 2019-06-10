@@ -10,28 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var messageLabel: UILabel!
-    
-    @IBOutlet weak var messageLabel2: UILabel!
+    @IBOutlet weak var topLabel: UILabel!
+
+    @IBOutlet weak var bottomLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func showMessagePressed(_ sender: Any) {
-        messageLabel.text = "Larry Page"
-        messageLabel2.text = "Sergey Brin"
+    @IBAction func googleButtonPressed(_ sender: Any) {
+        topLabel.text = "Larry Page"
+        bottomLabel.text = "Sergey Brin"
     }
     
-    @IBAction func showMessagePressed2(_ sender: Any) {
-        messageLabel.text = "Jennifer Hyman"
-        messageLabel2.text = "Jenny Fleiss"
+    @IBAction func runwayButtonPressed(_ sender: Any) {
+        topLabel.text = "Jennifer Hyman"
+        bottomLabel.text = "Jenny Fleiss"
     }
     
-    @IBAction func clearMessages(_ sender: Any) {
-        messageLabel.text = ""
-        messageLabel2.text = ""
+    @IBAction func clearButtonPressed(_ sender: Any) {
+        topLabel.text = ""
+        bottomLabel.text = ""
     }
 }
 
